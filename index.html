@@ -1105,7 +1105,8 @@ function shotsHTML(g) {
   if (!g.shots.length) return [0, 1, 2].map(() => `<div class="shot ph">${t('shot')}</div>`).join('');
   return g.shots.map((u, i) => `<button class="shot" data-shot="${g.id}" data-idx="${i}" aria-label="${t('shot')} ${i + 1}"><img src="${esc(shotSrc(u))}" alt="${esc(g.short)} ${i + 1}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></button>`).join('');
 }
-const totalDl = () => { const n = CONFIG.games.reduce((a, g) => a + (parseInt(g.downloads) || 0), 0); return n ? n + '+' : '—'; };
+const dlNum = d => parseInt(String(d || '').replace(/[^\d]/g, '')) || 0;
+const totalDl = () => { const n = CONFIG.games.reduce((a, g) => a + dlNum(g.downloads), 0); return n ? n.toLocaleString(LANG === 'tr' ? 'tr-TR' : 'en-US') + '+' : '—'; };
 const timeline = () => CONFIG.experience.map(e => `<div>${e.date ? `<i>${esc(L(e.date))}</i>` : ''}<b>${esc(L(e.title))}</b>${esc(L(e.text))}</div>`).join('');
 function panelHTML(s) {
   const x = `<button class="p-x" data-close aria-label="${t('close')}">✕</button>`;
@@ -1387,6 +1388,18 @@ function loop() {
 }
 
 /* ===================== boot ===================== */
+/* Play Store istatistikleri: GitHub Actions her gün stats.json'u günceller */
+fetch('stats.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(st => {
+  if (!st || !st.games) return;
+  CONFIG.games.forEach(g => {
+    const x = st.games[g.id]; if (!x) return;
+    if (x.downloads) g.downloads = x.downloads;
+    if (typeof x.ratings === 'number') g.rating = x.ratings > 0 ? x.rating : '';
+    if (x.icon) g.icon = x.icon;
+    if (x.shots && x.shots.length) g.shots = x.shots;
+  });
+  applyLang();
+}).catch(() => {});
 if (CONFIG.studioLogo) { const l = $('#brandLogo'); l.innerHTML = img(CONFIG.studioLogo, 'Z'); l.style.background = '#fff'; l.querySelector('img')?.addEventListener('error', () => l.style.background = ''); }
 applyLang(); resize();
 loop();
