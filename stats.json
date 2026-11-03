@@ -1,4 +1,62 @@
 {
-  "updated": null,
-  "games": {}
+  "updated": "2026-11-03T08:47:44.563Z",
+  "games": {
+    "traffic": {
+      "downloads": "100+",
+      "minInstalls": 100,
+      "rating": "5.0",
+      "ratings": 5,
+      "icon": "https://play-lh.googleusercontent.com/h-v0qZ4JO-lb9RBxhlqMdwIUGbamRIgoxZVzDmON44GoYGISuPBafJlvyT_tsQo8C6RDZURiFW4xQFWfqv216w",
+      "shots": [
+        "https://play-lh.googleusercontent.com/FxrOAGe2M42HCbJ61nJ3MjVahVgXmarXoFWyWbnMrUEWfPHimCiAkw7AkZLo3I2VBlr21JVB_Fa3wYx1D6yMTw",
+        "https://play-lh.googleusercontent.com/e-OvPbBxvM3uHdphn9CmORNIK0ra9c0AYzk3ME6ddZdSkN1c4UNXDeHf0mTKTPlw_hE9nP8dhHErDhDtvlNGpw",
+        "https://play-lh.googleusercontent.com/MvI-leSIilvlgJuMLZ_Ialug8An6wljgEbd7t4wqnI671rlza-My9kzOLo01495YJNGgv1jgm2FZza9b2wda",
+        "https://play-lh.googleusercontent.com/FPt7cA22Janjym3rY--A_T7_guRBTqtqVk1UYhn6YiPIjNv89mDAhxSV8scwlBjzK05qgWmRptio0hPRk3PCO1g",
+        "https://play-lh.googleusercontent.com/M61mDdl6Z8NzZGI3VMpFGebEcNc5Qj27HHqj36SpB3VgqfNOwQiUItLsMDR_8NV7Z5Gg6cj8f2lokwheVdvH",
+        "https://play-lh.googleusercontent.com/9-WikeZiBID4tpHkUlH02WqmWkDiEUbBecpqd77lUMXabt6k7jOFrjYJyCHrkDVQ6h488dcWRy7IX7hDx_IQ",
+        "https://play-lh.googleusercontent.com/4WSEmTpg_2Qo-6IG_9MhbsOXQLif1qiJcP5VBpvpCKzQVHncxEGbJt_CXZsVFpi6_EvCjj1HvPWD4OyPXvo6OQ4",
+        "https://play-lh.googleusercontent.com/FKAP5j0AAsravWYSg001Fa4-iEPSN0m7F6ZcrSxbDJn6kiSyYbRYI4kxDxO2DnhhwXmLqjwiU-blGw1zx32OSQ"
+      ],
+      "version": "2.0.1",
+      "storeUpdated": 1793644618000
+    },
+    "rocket": {
+      "downloads": "100+",
+      "minInstalls": 100,
+      "rating": "5.0",
+      "ratings": 18,
+      "icon": "https://play-lh.googleusercontent.com/ns9ppNMW2tW7Lj8ck1LTbWQp9YoL1YgF3E_THgUryZBJLxQVkkSEdWvGk-BDy_YmK85tlmPYaAfF_pt1Rs1vtA",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ImukUPIg4xSn1grdFd4RY4qGPD3hViSkPqEEjfAKXWbrs3ipcb5iAJw3vv6w7xNIwBE3nbzHUQ9_4BxY_xDK",
+        "https://play-lh.googleusercontent.com/xQSIL3fXkXQPFDLd-Dr7trjZXmrkmvT3LxB5tgWb7lc1LQm8NEOLSE9kvVk9uv_HU7TguDdm-igYD1Bfh-lJM14",
+        "https://play-lh.googleusercontent.com/CccjTw_CU628Z64BqnXcFB-XLy9ZOxtOOijvqrDI3F83IsoFHsUYHRCbnzJ-4RDSkNHbE_KJ0s5KsfjAIuPj",
+        "https://play-lh.googleusercontent.com/Wvl4wTDTFCRtvM_CEmhnHz-t0DcKNQ115Yhm5es1Mw1TTsVumth01kyzA4UAqtCN2HBCO4nj9JnSfK5TtqQGLD8",
+        "https://play-lh.googleusercontent.com/cX0g5R3dlfMXE_e1b0vFI1EyPkznDafn9ywcn2yXQMI9iVbfF-AGpj1HlltvQ75g3ySeC3aA4gijwyqLBndGCQ",
+        "https://play-lh.googleusercontent.com/wLrPO6BH5t2-itoe05uDrCW-KOa2vB7R5gNNQIMFqSTZg2k76BcBoAEyli2cE2cf1b5q1hib7NEad8JOgMaR",
+        "https://play-lh.googleusercontent.com/bJx3N2YCZWwJ1q4pNBrTRu6ee5bUwSYsexYjSBtxoqzKlQ0C-LWeaXhkSEv6O2yxh0Em33hUrMAfb2dJLBJ-pQ",
+        "https://play-lh.googleusercontent.com/bJx3N2YCZWwJ1q4pNBrTRu6ee5bUwSYsexYjSBtxoqzKlQ0C-LWeaXhkSEv6O2yxh0Em33hUrMAfb2dJLBJ-pQ"
+      ],
+      "version": "1.0.2",
+      "storeUpdated": 1787586980000
+    },
+    "arrows": {
+      "downloads": "100+",
+      "minInstalls": 100,
+      "rating": "5.0",
+      "ratings": 15,
+      "icon": "https://play-lh.googleusercontent.com/69yIrDYMFASYavHvckrrt4xgrU3PXUN8xT7PqRbDqbYllVfuvuWitABGciBsaE1OEf-RPylaBev5GzrfdCIQ9A",
+      "shots": [
+        "https://play-lh.googleusercontent.com/aG7oZi29_vEtI21FYMTP7uIbMFB2cJg3ccveJWr4nbtsSrOC8cHasWUwjtfMiI4z7Zlr-Zd1YMlvMCMLRg15AQ",
+        "https://play-lh.googleusercontent.com/yFBm7oqb5o32MgnCYWJa4KIcP598NmiEybdruEKrYenkmDQT8Zo9C5mgBLo5f_BXBC1bJOJi8E1ecrBfeZg5vg",
+        "https://play-lh.googleusercontent.com/pGyZ0MJc_Ys6S4kLnj8gVb5g4AcwIym3egAdANCLhA2lkmdOvcxt_STgmW4ojn4bjU-RrFixiCgivA6tfwOR6g",
+        "https://play-lh.googleusercontent.com/fS2mY1yLop1s3iRHPmZL8yAU7PBiz3phoD7g7TfBRjRet4sZP6E_fOaah9l930IecydqUgI2SfUGl1ErHs1VLg",
+        "https://play-lh.googleusercontent.com/62EkLKtUr1MmkwPeEOtHSusZYjWDj7_1JO21V30xA9lobwuTgk4gL-6ek_9MfYk-Z0iilPeMpHOPA7hlMAhj",
+        "https://play-lh.googleusercontent.com/qMsDmeElFvBpevPBUR8Wvjg9u3UuUX9evOdiftAsVJTSYWKhcVsLLquPBIk3KjpAL001ItP-lwlVNOWWtTj0Rw",
+        "https://play-lh.googleusercontent.com/Gn0pW0TdISjojTxFIYxhlPjLrRdHlqnNkpnULRd5JXL462QoCK1sAwfmutD76U571SsPd6B-Axh6yXvqQ4NM",
+        "https://play-lh.googleusercontent.com/y6O05yqAgUTEMxuLSPF13vN8mGoRUhQncc-ywTurQNDscfr-5jwaYnQsRTrDlT-vONs99lteyRFr80953p6ZxA"
+      ],
+      "version": "1.0.0",
+      "storeUpdated": 1793088665000
+    }
+  }
 }
